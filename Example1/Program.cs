@@ -1,13 +1,6 @@
 ﻿// Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
 // m = 3, n = 4.
 
-double[,] array = new double[3, 4];
-
-CreateArrayDouble(array);
-
-WriteArray(array);
-
-Console.WriteLine();
 
 void CreateArrayDouble(double[,] array)
 {
@@ -32,3 +25,7 @@ for (int i = 0; i < array.GetLength(0); i++)
       Console.WriteLine();
   }
 }
+double[,] array = new double[3, 4];
+CreateArrayDouble(array);
+WriteArray(array);
+Console.WriteLine();
